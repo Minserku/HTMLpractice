@@ -1,0 +1,69 @@
+*{
+  box-sizing : border-box;
+}
+
+:root{
+  --nav-width: 15vw;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin:0;
+  padding-left: var(--nav-width);
+}
+
+html, body{
+
+  margin: 0;
+  height: 100%;
+}
+
+
+
+nav{
+  position: fixed;
+  left: 0;
+  width: var(--nav-width);  
+  height: 100vh;
+  padding: 2em;
+  background: #333;
+  color: coral;
+}
+
+nav  a {
+  color:inherit;
+  text-decoration: none;
+  display: block;
+  margin: 3em 0;
+}
+
+nav a:hover{
+  color : purple;
+}
+
+
+#box {
+  min-height: 100%;
+  height: 100%;
+  background: #b7d84b;
+}
+
+#one{
+  height: 100%;
+  background-color: green;
+  font-size: 300px;
+}
+#two{
+  height: 100%;
+  background-color: pink;
+  font-size: 300px;
+}
+
+#three{
+  height: 100%;
+  background-color: powderblue;
+  font-size: 300px;
+}
